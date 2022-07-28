@@ -60,7 +60,7 @@ function App() {
         return(
           <div className='ingredient' key={i}>
             <h3 style={{color:"white"}}>{item.recipe.label}</h3>
-          <img src={item.recipe.image} alt="image broken"/>
+          <img src={item.recipe.image} alt="broken"/>
           <div className='step'>
           {item.recipe.ingredientLines.map((step,i)=>{
             return <div key={i}><p >{step}</p></div>
